@@ -1,14 +1,18 @@
 {
-  "name": "JavaScriptSnippets",
-  "description": "Code snippets for JavaScript in ES6 syntax",
+  "name": "JavaScriptSnippetsStandard",
+  "description": "Code snippets for JavaScript in ES6 syntax in StandardJS style",
   "version": "1.7.1",
-  "displayName": "JavaScript (ES6) code snippets",
-  "publisher": "xabikos",
-  "icon": "images/javascript.png",
+  "displayName": "JavaScript (ES6) code snippets in StandardJS style",
+  "publisher": "jmsv",
+  "icon": "images/standardjs.png",
   "license": "SEE LICENSE IN LICENSE.md",
+  "scripts": {
+    "publish": "vsce publish",
+    "package": "vsce package"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/xabikos/vscode-javascript"
+    "url": "https://github.com/jmsv/vscode-javascript-standard"
   },
   "engines": {
     "vscode": "0.10.x"

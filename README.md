@@ -1,10 +1,13 @@
 # JavaScript
-## VS Code JavaScript (ES6) snippets
+## VS Code JavaScript (ES6) snippets in StandardJS style
+
+pretty much just a fork of [vscode-javascript](https://github.com/xabikos/vscode-javascript) but without semicolons! :fire:
+
 -------------------
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/xabikos.JavaScriptSnippets.svg)](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs/xabikos.JavaScriptSnippets.svg)](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
-[![Ratings](https://vsmarketplacebadge.apphb.com/rating/xabikos.JavaScriptSnippets.svg)](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
+[![Version](https://vsmarketplacebadge.apphb.com/version/jmsv.JavaScriptSnippetsStandard.svg)](https://marketplace.visualstudio.com/items?itemName=jmsv.JavaScriptSnippetsStandard)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/jmsv.JavaScriptSnippetsStandard.svg)](https://marketplace.visualstudio.com/items?itemName=jmsv.JavaScriptSnippetsStandard)
+[![Ratings](https://vsmarketplacebadge.apphb.com/rating/jmsv.JavaScriptSnippetsStandard.svg)](https://marketplace.visualstudio.com/items?itemName=jmsv.JavaScriptSnippetsStandard)
 
 This extension contains code snippets for JavaScript in ES6 syntax for [Vs Code][code] editor (supports both JavaScript and TypeScript).
 
