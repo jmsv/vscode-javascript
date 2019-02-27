@@ -1,7 +1,7 @@
 {
   "name": "JavaScriptSnippetsStandard",
   "description": "Code snippets for JavaScript in ES6 syntax in StandardJS style",
-  "version": "1.7.1",
+  "version": "1.7.2",
   "displayName": "JavaScript (ES6) code snippets in StandardJS style",
   "publisher": "jmsv",
   "icon": "images/standardjs.png",
