@@ -31,24 +31,26 @@ Below is a list of all available snippets and the triggers of each one. The **�
 ### Import and export
 | Trigger  | Content |
 | -------: | ------- |
-| `imp→`   | imports entire module `import fs from 'fs';`|
+| `imp→`   | imports entire module `import fs from 'fs'`|
 | `imn→`   | imports entire module without module name `import 'animate.css'` |
-| `imd→`   | imports only a portion of the module using destructing  `import {rename} from 'fs';` |
-| `ime→`   | imports everything as alias from the module `import * as localAlias from 'fs';` |
-| `ima→`   | imports only a portion of the module as alias `import { rename  as localRename } from 'fs';` |
-| `rqr→`   | require package `require('');`|
-| `mde→`   | default module.exports `module.exports = {};`|
-| `enf→`   | exports name function `export const log = (parameter) => { console.log(parameter);};` |
-| `edf→`   | exports default function `export default  (parameter) => { console.log(parameter);};` |
-| `ecl→`   | exports default class `export default class Calculator { };` |
-| `ece→`   | exports default class by extending a base one `export default class Calculator extends BaseClass { };` |
+| `imd→`   | imports only a portion of the module using destructing  `import {rename} from 'fs'` |
+| `ime→`   | imports everything as alias from the module `import * as localAlias from 'fs'` |
+| `ima→`   | imports only a portion of the module as alias `import { rename  as localRename } from 'fs'` |
+| `rqr→`   | require package `require('')`|
+| `req→`   | require package to const `const package = require('package')`|
+| `rqf→`   | require package to functions `const { functionName } = require('package')`|
+| `mde→`   | default module.exports `module.exports = {}`|
+| `enf→`   | exports name function `export const log = (parameter) => { console.log(parameter)}` |
+| `edf→`   | exports default function `export default  (parameter) => { console.log(parameter)}` |
+| `ecl→`   | exports default class `export default class Calculator { }` |
+| `ece→`   | exports default class by extending a base one `export default class Calculator extends BaseClass { }` |
 
 ### Class helpers
 | Trigger  | Content |
 | -------: | ------- |
 | `con→`   | adds default constructor in the class `constructor() {}`|
 | `met→`   | creates a method inside a class `add() {}` |
-| `pge→`   | creates a getter property `get propertyName() {return value;}` |
+| `pge→`   | creates a getter property `get propertyName() {return value}` |
 | `pse→`   | creates a setter property `set propertyName(value) {}` |
 
 ### Various methods
@@ -61,10 +63,10 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `nfn→`   | creates a named function `const add = (params) => {}` |
 | `dob→`   | destructing object syntax `const {rename} = fs` |
 | `dar→`   | destructing array syntax `const [first, second] = [1,2]` |
-| `sti→`   | set interval helper method `setInterval(() => {});` |
-| `sto→`   | set timeout helper method `setTimeout(() => {});` |
-| `prom→`  | creates a new Promise `return new Promise((resolve, reject) => {});`|
-| `thenc→` | adds then and catch declaration to a promise `.then((res) => {).catch((err) => {});`|
+| `sti→`   | set interval helper method `setInterval(() => {})` |
+| `sto→`   | set timeout helper method `setTimeout(() => {})` |
+| `prom→`  | creates a new Promise `return new Promise((resolve, reject) => {})`|
+| `thenc→` | adds then and catch declaration to a promise `.then((res) => {).catch((err) => {})`|
 
 ### Console methods
 | Trigger  | Content |
@@ -77,7 +79,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `cgr→`   | console group `console.group(label)` |
 | `cge→`   | console groupEnd `console.groupEnd()` |
 | `clg→`   | console log `console.log(object)` |
-| `clo→`   | console log object with name `console.log('object :', object);` |
+| `clo→`   | console log object with name `console.log('object :', object)` |
 | `ctr→`   | console trace `console.trace(object)` |
 | `cwa→`   | console warn `console.warn` |
 | `cin→`   | console info `console.info` |

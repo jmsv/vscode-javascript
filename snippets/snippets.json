@@ -46,7 +46,7 @@
   },
   "exportNamedVariable": {
     "prefix": "env",
-    "body": "export const ${1:exportVariable} = ${2:localVariable};\n",
+    "body": "export const ${1:exportVariable} = ${2:localVariable}\n",
     "description": "Export named variable in ES6 syntax"
   },
   "exportNamedFunction": {
@@ -164,7 +164,7 @@
   },
   "consoleDebug": {
     "prefix": "cdb",
-    "body": "console.debug(${1:object});",
+    "body": "console.debug(${1:object})",
     "description": "Displays a message in the console. Also display a blue right arrow icon along with the logged message in Safari"
   },
   "consoleDir": {
