@@ -1,9 +1,9 @@
 {
   "name": "JavaScriptSnippetsStandard",
   "description": "Code snippets for JavaScript in ES6 syntax in StandardJS style",
-  "version": "1.7.2",
+  "version": "1.7.3",
   "displayName": "JavaScript (ES6) code snippets in StandardJS style",
-  "publisher": "jmsv",
+  "publisher": "mlefebvr",
   "icon": "images/standardjs.png",
   "license": "SEE LICENSE IN LICENSE.md",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jmsv/vscode-javascript-standard"
+    "url": "https://github.com/mlefebvr/vscode-javascript-standard"
   },
   "engines": {
     "vscode": "0.10.x"
