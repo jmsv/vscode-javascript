@@ -29,10 +29,20 @@
     "body": "require('${1:package}')",
     "description": "Require a package"
   },
+  "requireToConst": {
+    "prefix": "req",
+    "body": "const ${1:packageName} = require('${1:package}')$0",
+    "description": "Require a package to const"
+  },
   "moduleExports": {
     "prefix": "mde",
     "body": "module.exports = {\n\t$0\n}\n",
     "description": "Module exports from Common JS, node syntax at ES6"
+  },
+  "exportNamedVariable": {
+    "prefix": "env",
+    "body": "export const ${1:exportVariable} = ${2:localVariable}\n",
+    "description": "Export named variable in ES6 syntax"
   },
   "exportNamedFunction": {
     "prefix": "enf",
@@ -41,7 +51,7 @@
   },
   "exportDefaultFunction": {
     "prefix": "edf",
-    "body": "export default (${1:params}) => {\n\t$0\n}\n",
+    "body": "export default function ${1:${TM_FILENAME_BASE}}(${2:params}) {\n\t$0\n}\n",
     "description": "Export default function in ES6 syntax"
   },
   "exportClass": {
@@ -147,6 +157,11 @@
     "body": "console.count(${1:label})",
     "description": "Writes the the number of times that count() has been invoked at the same line and with the same label"
   },
+  "consoleDebug": {
+    "prefix": "cdb",
+    "body": "console.debug(${1:object})",
+    "description": "Displays a message in the console. Also display a blue right arrow icon along with the logged message in Safari"
+  },
   "consoleDir": {
     "prefix": "cdi",
     "body": "console.dir(${1:object})",
@@ -159,7 +174,7 @@
   },
   "consoleGroup": {
     "prefix": "cgr",
-    "body": "console.group(\"${1:label}\")",
+    "body": "console.group('${1:label}')",
     "description": "Groups and indents all following output by an additional level, until console.groupEnd() is called."
   },
   "consoleGroupEnd": {
